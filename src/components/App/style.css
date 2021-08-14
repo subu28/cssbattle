@@ -1,0 +1,14 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+}
+html,body{
+  margin: 0;
+  height: 100%;
+  background: #171d23;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #cbd1e1;
+}
+.flex{
+  display: flex;
+}

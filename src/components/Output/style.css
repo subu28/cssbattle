@@ -1,0 +1,12 @@
+.output{
+  width: 50vw;
+}
+.output-header{
+  background: #25303a;
+  padding: 0 16px;
+  border-bottom: 1px solid #323f4a;
+  font-weight: 700;
+  align-items: center;
+  height: 40px;
+  display: flex;
+}

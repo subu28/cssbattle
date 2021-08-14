@@ -1,0 +1,18 @@
+.ide {
+  counter-reset: line-no 0;
+  padding: 4px 0;
+}
+.ide-line::before{
+  content: counter(line-no);
+  width: 30px;
+  display: block;
+  margin-right: 8px;
+  text-align: right;
+  color: #5a646f;
+  flex-shrink: 0;
+}
+.ide-line{
+  line-height: 26px;
+  counter-increment: line-no 1;
+  display: flex;
+}

@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  
+}
+.scrollable {
+  display:flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+.navbar-btn {
+  padding: 15px;
+  cursor: pointer;
+}
+.navbar-btn:hover{
+  background: #ffdf00;
+  color: #171d23;
+}
+.navbar-help {
+  width: 35px;
+}
+.navbar-prev{
+  height: 15px;
+  width: 15px;
+  border: 3px solid;
+  border-bottom-color:#0000;
+  border-left-color:#0000;
+  transform: translateY(2px) translateX(-1px) rotate(225deg);
+}
+.navbar-next{
+  height: 15px;
+  width: 15px;
+  border: 3px solid;
+  border-bottom-color:#0000;
+  border-left-color:#0000;
+  transform:translateY(2px) translateX(-8px)  rotate(45deg);
+}
