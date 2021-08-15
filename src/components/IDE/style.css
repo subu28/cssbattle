@@ -15,4 +15,26 @@
   line-height: 26px;
   counter-increment: line-no 1;
   display: flex;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ide-line .symbol {
+  color: #6c6783;
+  font-weight: 400;
+}
+.ide-line .tag {
+  color: #fff;
+}
+.ide-line .attr {
+  color: #ffcc99;
+}
+.ide-line .indent::before{
+  content: '\b7';
+  color: #342f47;
+}
+.ide-line .key {
+  color: #9a86fd;
+}
+.ide-line .value {
+  color: #ffcc99;
 }

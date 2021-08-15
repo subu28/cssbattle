@@ -10,3 +10,15 @@
   height: 40px;
   display: flex;
 }
+.output-frame-container {
+  display: flex;
+  justify-content: center;
+}
+.output-frame{
+  width: 400px;
+  height: 300px;
+  margin: none;
+  border: none;
+  overflow: hidden;
+  margin: 30px auto;
+}
